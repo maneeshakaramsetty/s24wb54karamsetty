@@ -8,7 +8,7 @@ block content
     .row
       each f,index in results 
         .col-sm-2(onclick=`buy(${index})`)
-          | #{f.instrument_type}, #{f.brand}, $#{f.price}
+          | #{f.Dog_type}, #{f.Name}, #{f.Age}, #{f.Color}
           
   script.
     function buy(index) {
